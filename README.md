@@ -1,2 +1,88 @@
 # AI-Prompting-Guide-in-TOML
 TOML prompting guide for consistent and reproducible use of AI chat and agents to do whatever you will.
+# AI-Agent-TOML-Workflow
+
+**A structured, TOML-driven workflow for AI agents.**
+
+This repository is a follow-up to [How-To-Build-YOUR-AI-APPs](https://github.com/yourusername/How-To-Build-YOUR-AI-APPs), focusing on how to use **TOML** as a machine- and human-readable configuration for AI agents. TOML allows you to define constraints, tasks, and workflows in a structured way, ensuring the AI "thinks" only after you've defined exactly what it should do.
+
+---
+
+## Why TOML for AI Agents?
+
+- **Human-Readable**: TOML is easy for humans to write and review, making it ideal for defining AI workflows.
+- **Machine-Readable**: TOML is easily parsed by code, ensuring the AI can interpret your instructions precisely.
+- **Predictable**: By defining constraints, dependencies, and tasks upfront, you reduce the risk of unexpected AI behavior.
+- **Auditable**: TOML files serve as a clear record of what the AI was instructed to do, improving transparency and debugging.
+
+---
+
+## TOML Example
+
+Below is a full, working TOML configuration for an AI agent workflow:
+
+```toml
+[Context]
+project_name = "Decision Intelligence Pipeline"
+human_role = "AI Engineer / Platform Consultant"
+goal_summary = "Create production-ready AI pipelines with constraint enforcement, ranking, and retrieval."
+human_chain_of_thought = "Thinking for the AI before the AI thinks — explaining exactly what I want."
+
+[Do]
+- Follow human instructions precisely
+- Respect code syntax, linting, and project conventions
+- Precompute dependencies and validate before execution
+- Test outputs (unit, integration, system)
+
+[DoNot]
+- Never hallucinate code or new programming concepts
+- Do not make assumptions — ask for missing context
+- Never optimize for politeness instead of correctness
+
+[Tools]
+available_tools = ["Airtable", "Directus", "Directus MCP", "n8n", "PostgreSQL", "FastAPI", "Redis"]
+tool_access = { Directus = "Read/Write", "MCP Server" = "Query/Update", Airtable = "Query" }
+
+[Tasks]
+tasks_list = [
+  "Verify dependencies",
+  "Precompute modules and data",
+  "Validate schema and config",
+  "Generate or manipulate code",
+  "Run tests on outputs",
+  "Document results"
+]
+
+[Dependencies]
+required_libraries = ["PostgreSQL", "FastAPI", "Directus", "n8n"]
+required_services = ["Auth0", "Redis"]
+required_files = ["config.json", "schema.sql"]
+required_data = ["user_data.csv", "embedding_vectors.db"]
+
+[Precompute]
+compile_modules = true
+validate_schema = true
+preload_data = true
+check_service_availability = true
+resolve_external_dependencies = true
+
+[Prompt]
+description = "Build AI pipeline enforcing hard/soft constraints, generating code safely, and documenting reasoning."
+
+[Output]
+outputs_list = [
+  "Code (linted and validated)",
+  "Dependency validation report",
+  "Test results",
+  "Execution reasoning chain",
+  "Documentation"
+]
+
+[Traits]
+agent_traits = [
+  "Never make assumptions",
+  "Ask clarifying questions",
+  "Follow logical reasoning",
+  "Validate all outputs",
+  "Document chain of thought"
+]
