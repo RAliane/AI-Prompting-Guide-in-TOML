@@ -124,7 +124,6 @@ Load TOML → Precompute Dependencies → Validate → Execute Tasks → Generat
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-```
 
 ---
 
