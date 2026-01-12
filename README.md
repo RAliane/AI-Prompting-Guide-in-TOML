@@ -2,17 +2,14 @@
 TOML prompting guide for consistent and reproducible use of AI chat and agents to do whatever you will.
 # AI-Agent-TOML-Workflow
 
-Here’s a complete, ready-to-push GitHub repository structure for **AI-Agent-TOML-Workflow**, including all requested files and content. You can copy the following files into your local directory and push them to GitHub.
-
----
 
 ### 1. **README.md**
-```markdown
+``
 # AI-Agent-TOML-Workflow
 
 **A structured, TOML-driven workflow for AI agents.**
 
-This repository is a follow-up to [How-To-Build-YOUR-AI-APPs](https://github.com/yourusername/How-To-Build-YOUR-AI-APPs), focusing on how to use **TOML** as a machine- and human-readable configuration for AI agents. TOML allows you to define constraints, tasks, and workflows in a structured way, ensuring the AI "thinks" only after you've defined exactly what it should do.
+This repository is a follow-up to [How-To-Build-YOUR-AI-APPs](https://github.com/RAliane/How-To-Build-YOUR-AI-APPs), focusing on how to use **TOML** as a machine- and human-readable configuration for AI agents. TOML allows you to define constraints, tasks, and workflows in a structured way, ensuring the AI "thinks" only after you've defined exactly what it should do.
 
 ---
 
