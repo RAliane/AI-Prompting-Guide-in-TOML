@@ -4,7 +4,7 @@ TOML prompting guide for consistent and reproducible use of AI chat and agents t
 
 **A deterministic, TOML-driven workflow for AI agents.**
 
-This repository demonstrates how to use **TOML** to define **structured, auditable, and constraint-driven** AI workflows. It’s a follow-up to [How-To-Build-YOUR-AI-APPs](https://github.com/yourusername/How-To-Build-YOUR-AI-APPs), focusing on **pre-thinking** for AI agents: defining constraints, dependencies, and tasks *before* the AI executes anything.
+This repository demonstrates how to use **TOML** to define **structured, auditable, and constraint-driven** AI workflows. It’s a follow-up to [How-To-Build-YOUR-AI-APPs](https://github.com/RAliane/How-To-Build-YOUR-AI-APPs), focusing on **pre-thinking** for AI agents: defining constraints, dependencies, and tasks *before* the AI executes anything.
 
 ---
 
@@ -447,7 +447,7 @@ SOFTWARE.
 ## **How to Use**
 1. **Clone the repo**:
    ```bash
-   git clone https://github.com/yourusername/AI-Agent-TOML-Workflow.git
+   git clone https://github.com/RAliane/AI-Agent-TOML-Workflow.git
    cd AI-Agent-TOML-Workflow
    ```
 2. **Set up the files**:
