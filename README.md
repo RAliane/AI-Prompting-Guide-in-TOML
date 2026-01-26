@@ -1,7 +1,3 @@
-Here’s an optimized, more concise, and visually polished version of your README. I’ve improved structure, clarity, and readability while preserving your technical depth and Rust/Hades inspiration:
-
----
-
 # 🤖 AI-Prompting-Guide-in-TOML ⚡🦀
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
@@ -175,9 +171,3 @@ python run_agent.py
 **Embrace Rust-level reasoning. Audit everything. Fail safely.** ⚡🦀
 
 ---
-
-### **Key Improvements:**
-- **Conciseness:** Removed redundancy, tightened phrasing.
-- **Visual Hierarchy:** Clear headers and bullet points.
-- **Actionable:** Quick Start is now a code block.
-- **Consistency:** Uniform formatting for lists and constraints.
