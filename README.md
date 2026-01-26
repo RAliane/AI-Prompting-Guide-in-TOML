@@ -170,7 +170,7 @@ python run_agent.py
 ---
 
 ## **References**
-- [Hades](https://github.com/your-hades-link): Deterministic Rust GraphQL Engine
+- [Hades](https://github.com/RAliane/Hades-A-Replacement-to-Hasura-Redis-in-Rust-Concept): Deterministic Rust GraphQL Engine
 - [SQLx](https://github.com/launchbadge/sqlx): Rust ORM
 - [Dioxus](https://dioxuslabs.com/): Frontend
 
