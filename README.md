@@ -28,6 +28,7 @@
 This guide enforces **structured, auditable, and deterministic AI pipelines** using TOML, inspired by Hades’ state management (hot/warm/canonical), caching, sharding, **type safety**, and persistence.
 
 **Key Features:**
+
 ✅ Deterministic reasoning
 
 ✅ Memory & **type safety**
