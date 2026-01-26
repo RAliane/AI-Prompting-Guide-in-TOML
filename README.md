@@ -29,10 +29,15 @@ This guide enforces **structured, auditable, and deterministic AI pipelines** us
 
 **Key Features:**
 ✅ Deterministic reasoning
+
 ✅ Memory & **type safety**
+
 ✅ Concurrency awareness
+
 ✅ State promotion rules (hot/warm/canonical)
+
 ✅ Schema, persistence, and migration checks
+
 ✅ Sharding & caching audits
 
 ---
