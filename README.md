@@ -110,7 +110,7 @@ soft_constraints = [
   { name = "Shard balance", penalty_weight = 0.3, threshold = 0.9 },
   { name = "Promotion latency", penalty_weight = 0.2, threshold = 0.8 }
 ]
-
+```
 
 ⸻
 
